@@ -1,0 +1,29 @@
+{
+  "name": "mesos-dns-node-resolver",
+  "version": "1.0.0",
+  "description": "A tool to resolve Mesos DNS service addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha tests/auth.inegration.js tests/unit/*.test.*",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zooz/mesos-dns-node-resolver"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "keywords": [
+    "dc/os",
+    "dcos",
+    "dns",
+    "mesos"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1",
+    "rewire": "^3.0.2",
+    "sinon": "^4.1.3"
+  }
+}
