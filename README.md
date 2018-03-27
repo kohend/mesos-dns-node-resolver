@@ -14,11 +14,11 @@ Parameters:
  - suffix - the DNS suffix (defaults to marathon.mesos)
  - callback - A function that gets err and result (array of object with host property and a sorted ports array)
 
-``
+```
 mesosdns = require("mesosdns-node-resolver");
 mesosdns.resolve("service.group", function (err, result) {
   console.log(result);
 });
-׳׳
+```
 
 To use promises call promiseResolve without a callback.
