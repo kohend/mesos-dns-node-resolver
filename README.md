@@ -1,5 +1,7 @@
 # mesosdns-node-resolver
 
+[![Package version](https://img.shields.io/npm/v/mesos-dns-node-resolver.svg)](https://www.npmjs.com/package/mesos-dns-node-resolver) [![Package downloads](https://img.shields.io/npm/dt/mesos-dns-node-resolver.svg)](https://www.npmjs.com/package/mesos-dns-node-resolver) [![Package license](https://img.shields.io/npm/l/mesos-dns-node-resolver)](https://www.npmjs.com/package/mesos-dns-node-resolver)[![NSP Status](https://nodesecurity.io/orgs/paymentsos/projects/1286ad57-2675-4e69-8500-0090ad214ac5/badge)](https://nodesecurity.io/orgs/paymentsos/projects/1286ad57-2675-4e69-8500-0090ad214ac5)
+
 A small library to resolve records in Mesos DNS (via SRV DNS records) for Node.js.  
 
 ## Dependencies:
